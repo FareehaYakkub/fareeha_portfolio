@@ -1,0 +1,33 @@
+.skill-heading {
+    text-align: center;
+    padding: 5.1rem 0 3rem 0;
+}
+
+.skill-container {
+    max-width: 1220px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.skill-card {
+    border-radius: 15%;
+    background-color: #ebe2e2;
+    padding: 0.6rem 0.6rem;
+}
+
+.skill-title {
+    color: #18171700;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:740px) {
+    .skill-container {
+        max-width: 60%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
